@@ -1,0 +1,13 @@
+{
+  "name": "sustineri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "author": "Leonardo Kopeski",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/socket.io": "^3.0.2",
+    "fs": "^0.0.1-security"
+  }
+}

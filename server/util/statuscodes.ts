@@ -1,0 +1,12 @@
+export const OK = 0
+export const ROOM_NOT_FOUND = 1
+export const NOT_JOINED = 2
+export const INVALID_TEAM = 3
+export const STARTED_ROOM = 4
+export const NOT_STARTED_ROOM = 5
+export const WRONG_QUESTION_ANSWER = 6
+export const NO_TEAM = 7
+export const ANSWERED_CORRECTLY = 8
+export const SKIPPED_QUESTION = 9
+export const RECONNECTION_ON_ONLINE_USER = 10
+export const INVALID_REQUEST = 11

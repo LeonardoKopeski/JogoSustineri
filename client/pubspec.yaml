@@ -1,0 +1,41 @@
+name: sustineri
+description: Um quiz sobre natureza.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  socket_io_client: ^2.0.3+1
+  http: ^1.1.0
+  metaballs: ^1.5.0
+  universal_html: ^2.2.3
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  image_path: "assets/logo.jpg"
+  android: true
+  ios: true
+  web: 
+    generate: true
+  windows: 
+    generate: true
+  macos: 
+    generate: true
+  linux: 
+    generate: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.jpg
