@@ -7,3 +7,4 @@ flutter build web
 cp -r ./build/web ../build/web
 cd ../build
 npm install express socket.io crypto fs http
+cd ..
