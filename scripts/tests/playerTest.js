@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const URL = "http://localhost:3000"
+const URL = "https://sustineri.onrender.com"//"http://localhost:3000"
 console.log("=".repeat(process.stdout.columns))
 console.log("Server URL: "+URL)
 console.log("=".repeat(process.stdout.columns))
