@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.INVALID_REQUEST = exports.RECONNECTION_ON_ONLINE_USER = exports.SKIPPED_QUESTION = exports.ANSWERED_CORRECTLY = exports.NO_TEAM = exports.WRONG_QUESTION_ANSWER = exports.NOT_STARTED_ROOM = exports.STARTED_ROOM = exports.INVALID_TEAM = exports.NOT_JOINED = exports.ROOM_NOT_FOUND = exports.OK = void 0;
+exports.OK = 0;
+exports.ROOM_NOT_FOUND = 1;
+exports.NOT_JOINED = 2;
+exports.INVALID_TEAM = 3;
+exports.STARTED_ROOM = 4;
+exports.NOT_STARTED_ROOM = 5;
+exports.WRONG_QUESTION_ANSWER = 6;
+exports.NO_TEAM = 7;
+exports.ANSWERED_CORRECTLY = 8;
+exports.SKIPPED_QUESTION = 9;
+exports.RECONNECTION_ON_ONLINE_USER = 10;
+exports.INVALID_REQUEST = 11;
