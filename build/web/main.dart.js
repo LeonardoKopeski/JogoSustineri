@@ -81263,7 +81263,7 @@ this.f=r==null?0:r
 return A.IH(new A.acF(this),s,t.z)
 case"/room/create":return A.IH(new A.acG(this),s,t.z)
 default:return A.IH(new A.acH(q),s,t.z)}},
-aG(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d="http://localhost:3000",c="query"
+aG(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d="http://sustineri.onrender.com",c="query"
 e.aU()
 s=t.N
 r=t.z
@@ -81274,7 +81274,7 @@ n=p.giU(p)
 m=$.alV.ag(0,o)&&$.alV.h(0,o).d.ag(0,n)
 l=q.h(0,"forceNew")===!0||q.h(0,"force new connection")===!0||!1===q.h(0,"multiplex")||m
 k=A.aZ("io")
-if(l){$.azc().aS(B.n,"ignoring socket cache for http://localhost:3000",null,null)
+if(l){$.azc().aS(B.n,"ignoring socket cache for http://sustineri.onrender.com",null,null)
 k.b=A.asP(q,d)}else{j=$.alV.h(0,o)
 if(j==null){j=A.asP(q,d)
 $.alV.n(0,o,j)}k.b=j}if(p.gmW(p).length!==0&&q.h(0,c)==null)q.n(0,c,p.gmW(p))
