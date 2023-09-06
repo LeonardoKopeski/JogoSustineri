@@ -20,6 +20,9 @@ var sessions:Map<string, Session> = new Map()
 
 // Start express routes
 app.use(express.static('web'))
+app.get("/room/*",(req,res)=>{
+	res.redirect("/#"+req.originalUrl)
+})
 
 function generateHash(data:string){
     var hash = crypto.createHash("sha512")
